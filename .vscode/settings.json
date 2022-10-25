@@ -1,0 +1,37 @@
+{
+  "editor.formatOnSave": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "files.associations": {
+    ".zshrc": "shellscript",
+    ".zshenv": "shellscript",
+    "*.sh": "shellscript"
+  },
+  "editor.defaultFormatter": "foxundermoon.shell-format",
+  "prettier.configPath": ".github/.prettierrc",
+  "markdownlint.config": {
+    "extends": ".github/.markdownlint.yaml"
+  },
+  "shellformat.useEditorConfig": true,
+  "shellcheck.ignorePatterns": {
+    "**/*.xonshrc": true,
+    "**/*.xsh": true,
+    "**/*.zsh": true,
+    "**/*.zshrc": true,
+    "**/zshrc": true,
+    "**/*.zprofile": true,
+    "**/zprofile": true,
+    "**/*.zlogin": true,
+    "**/zlogin": true,
+    "**/*.zlogout": true,
+    "**/zlogout": true,
+    "**/*.zshenv": true,
+    "**/zshenv": true,
+    "**/*.zsh-theme": true,
+    "**/*za-*": true
+  }
+}

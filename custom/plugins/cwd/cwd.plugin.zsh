@@ -1,0 +1,3 @@
+function cwd() {
+  basename "$PWD"
+}
